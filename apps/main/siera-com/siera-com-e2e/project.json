@@ -1,0 +1,10 @@
+{
+  "name": "siera-com-e2e",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/main/siera-com/siera-com-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["siera-com"],
+  "// targets": "to see all targets run: nx show project siera-com-e2e --web",
+  "targets": {}
+}
