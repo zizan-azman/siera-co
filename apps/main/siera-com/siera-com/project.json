@@ -22,7 +22,10 @@
             "input": "apps/main/siera-com/siera-com/public"
           }
         ],
-        "styles": ["apps/main/siera-com/siera-com/src/styles.scss"],
+        "styles": ["apps/main/siera-com/siera-com/src/styles/styles.scss"],
+        "stylePreprocessorOptions": {
+          "includePaths": ["libs/main/main-shared/src/lib/styles"]
+        },
         "scripts": []
       },
       "configurations": {

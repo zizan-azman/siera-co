@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { SieraComShellComponent } from '@siera-co/siera-com-lib';
 
 @Component({
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [SieraComShellComponent],
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  template: '<lib-siera-com-shell/>',
 })
 export class AppComponent {
   title = 'siera-com';

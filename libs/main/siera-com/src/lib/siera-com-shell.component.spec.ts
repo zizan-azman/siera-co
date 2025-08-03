@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { SieraComLibComponent } from './siera-com-lib.component';
+import { SieraComShellComponent } from './siera-com-shell.component';
 
-describe('SieraComLibComponent', () => {
-  let component: SieraComLibComponent;
-  let fixture: ComponentFixture<SieraComLibComponent>;
+describe('SieraComShellComponent', () => {
+  let component: SieraComShellComponent;
+  let fixture: ComponentFixture<SieraComShellComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SieraComLibComponent],
+      imports: [SieraComShellComponent],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(SieraComLibComponent);
+    fixture = TestBed.createComponent(SieraComShellComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,1 +1,2 @@
-export * from './lib/siera-com-lib.component';
+export * from './lib/siera-com-shell.component';
+export * from './lib/siera-com-shell.routes';
