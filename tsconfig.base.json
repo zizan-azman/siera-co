@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@siera-co/jv-dina-lib": ["libs/main/jv-dina/src/index.ts"],
+      "@siera-co/jv-mango-lib": ["libs/main/jv-mango/src/index.ts"],
+      "@siera-co/jv-occhi-lib": ["libs/main/jv-occhi/src/index.ts"],
+      "@siera-co/main-shared": ["libs/main/main-shared/src/index.ts"],
+      "@siera-co/siera-com-lib": ["libs/main/siera-com/src/index.ts"],
+      "@siera-co/siera-my-lib": ["libs/main/siera-my/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
